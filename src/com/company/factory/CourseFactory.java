@@ -5,7 +5,7 @@ import com.company.entities.Course;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseFactory {
+public final class CourseFactory {
     private static CourseFactory instance;
     private final List<Course> courses = new ArrayList<>();
 
