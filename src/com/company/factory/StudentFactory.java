@@ -5,7 +5,7 @@ import com.company.entities.Student;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StudentFactory {
+public final class StudentFactory {
     private static StudentFactory instance;
     private final Map<String, Student> students = new HashMap<>();
 
