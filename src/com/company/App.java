@@ -24,8 +24,6 @@ public class App {
     Scanner scanner = new Scanner(System.in);
 
     public void start() {
-        addDefaultValues();
-        addDefault();
         while (true) {
             System.out.println("Welcome to Moodlee!");
             System.out.println("Login Panel");
